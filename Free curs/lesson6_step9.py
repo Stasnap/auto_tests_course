@@ -9,7 +9,7 @@ try:
     brow.get(link)
 
     for i in brow.find_elements(By.CSS_SELECTOR, 'div.first_block input'):
-        i.send_keys('fuck')
+        i.send_keys('Kick')
     # for n in brow.find_elements(By.CSS_SELECTOR, 'div.second_block input'):
     #     n.send_keys('you')
     brow.find_element(By.CSS_SELECTOR, 'button.btn').click()

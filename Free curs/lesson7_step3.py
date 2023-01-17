@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 import time
-import math
 
 brow = webdriver.Chrome()
 link = ('http://suninjuly.github.io/selects1.html')

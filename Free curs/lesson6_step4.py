@@ -6,8 +6,8 @@ link = ('http://suninjuly.github.io/find_link_text')
 
 with webdriver.Chrome() as browser:
     browser.get(link)
-    browser.find_element(By.LINK_TEXT, '224592').click()
 
+    browser.find_element(By.LINK_TEXT, '224592').click()
     browser.find_element(By.TAG_NAME, 'input').send_keys("Ivan")
     browser.find_element(By.NAME, 'last_name').send_keys("Petrov")
     browser.find_element(By.CLASS_NAME, 'form-control.city').send_keys("Smolensk")
